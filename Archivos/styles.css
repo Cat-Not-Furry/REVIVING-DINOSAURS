@@ -1,0 +1,388 @@
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Fondo oscuro */
+    color: #ffffff; /* Letras blancas */
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffcc00; /* Amarillo para títulos */
+}
+
+a {
+    color: #ffcc00; /* Amarillo para enlaces */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e6b800; /* Amarillo más oscuro al pasar el mouse */
+}
+
+/* Header */
+header {
+    background-color: #1a1a1a;
+    padding: 60px 0;
+    text-align: center;
+    border-bottom: 2px solid #ffcc00;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #ffcc00;
+}
+
+/* Navegación */
+nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #e6b800;
+}
+
+/* Contenedor principal */
+.container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Secciones */
+.section {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 1.1rem;
+    color: #cccccc; /* Gris claro para texto secundario */
+}
+
+/* Cursos */
+.courses {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 30px;
+    width: 30%;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.course h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+
+.course p {
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+.course a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #1a1a1a; /* Texto negro sobre amarillo */
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.course a:hover {
+    background-color: #e6b800;
+}
+
+/* Sección de botones */
+.button-section {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.button-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.button-section p {
+    font-size: 1.1rem;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.button-section a {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.button-section a.youtube-button {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.button-section a:hover {
+    background-color: #e6b800;
+}
+
+/* Preguntas frecuentes */
+.faq {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+}
+
+.faq h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+
+.faq p {
+    font-size: 1rem;
+    color: #cccccc;
+}
+
+/* Formulario de contacto */
+.contact-form {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+.contact-form button {
+    padding: 15px 30px;
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e6b800;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #ffcc00;
+}
+
+footer a {
+    color: #ffcc00;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #e6b800;
+}
+
+/* Estilos para la sección de Tareas */
+.task-section {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+.task-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    text-align: center;
+}
+
+.task-form input,
+.task-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ffffff;
+}
+
+.task-form button {
+    padding: 15px 30px;
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.task-form button:hover {
+    background-color: #e6b800;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.task-table th,
+.task-table td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: center;
+}
+
+.task-table th {
+    background-color: #333;
+    color: #ffcc00;
+}
+
+.task-table td {
+    background-color: #262626;
+    color: #cccccc;
+}
+
+/* Estilos para la sección de Documentos y Webs */
+.documents-webs-section {
+    background-color: #262626;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+.documents-webs-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    text-align: center;
+}
+
+.sort-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.sort-buttons button {
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sort-buttons button:hover {
+    background-color: #e6b800;
+}
+
+.link-list {
+    list-style: none;
+    padding: 0;
+}
+
+.link-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.link-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.link-list li i {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #ffcc00;
+}
+
+.link-list li a {
+    flex-grow: 1;
+    color: #ffffff;
+}
+
+.link-list li .actions {
+    display: flex;
+    gap: 10px;
+}
+
+.link-list li .actions button {
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.link-list li .actions button:hover {
+    background-color: #e6b800;
+}
+
